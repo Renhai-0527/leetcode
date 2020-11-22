@@ -22,6 +22,7 @@ public class LongStr {
             map.put(s.charAt(i),i);
             max = Math.max(max,i-left+1);
         }
+
         return max;
     }
 }
